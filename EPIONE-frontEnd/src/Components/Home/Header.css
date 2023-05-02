@@ -1,0 +1,53 @@
+header{
+    background: url("../../assets/header.jpg") center ; 
+    background-size: cover;
+    width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    padding: 25px 0px;
+}
+header .row{
+    margin: 50px 0px;
+}
+header h2{
+    color: rgb(18, 122, 115);
+    font-size: 55px;
+    line-height: 60px;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Patua One', cursive;
+    width: 40%;
+}
+header p{
+    color: #333;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Patua One', cursive;
+    margin: 15px 0px;
+}
+header button{
+    width: 150px;
+    height: 50px;
+    background-color: #1fcea7;
+    border: 1px solid #1fcea7;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    margin:20px 10px 20px 0px ;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header button:last-of-type{
+    background-color: white;
+    color: black;
+}
+header button:hover{
+    transition: .2s ease-in-out;
+}
+header button:first-of-type:hover{
+    background-color: white;
+    color: #1fcea7;
+}
+header button:last-of-type:hover{
+    background-color: #1fcea7;
+    color: #fff;
+}
