@@ -1,14 +1,15 @@
 header{
-    background: url("../../assets/header.jpg") center ; 
+    background: url("../../assets/header.jpg") center no-repeat; 
     background-size: cover;
     width: 100%;
     text-align: left;
     height: auto;
     overflow: hidden;
-    padding: 25px 0px;
+    padding: 55px 0px;
 }
 header .row{
-    margin: 50px 0px;
+    margin: 60px 0px;
+    
 }
 header h2{
     color: rgb(18, 122, 115);

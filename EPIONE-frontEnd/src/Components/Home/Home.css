@@ -1,0 +1,23 @@
+.numbers{
+    background-color: #1fcea7;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.numbers .row{
+    margin: 0px 0px ;
+}
+.numbers h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: white;
+    
+}
+.numbers h6{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+}
