@@ -11,10 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('commandes', function (Blueprint $table) {
-            $table->increments("numCommande");
-            $table->date("dateCommande");
-            $table->foreignId('client_id')->contrained('clients');
+        Schema::create('employes_produits', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('employe_id')->contrained('employes');
+            $table->foreignId('produit_id')->contrained('produits');
             $table->timestamps();
         });
     }
@@ -24,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('commandes');
+        Schema::dropIfExists('employes_produits');
     }
 };

@@ -15,6 +15,8 @@ return new class extends Migration
             $table->increments("id");
             $table->integer("quantite");
             $table->double("price",30,2);
+            $table->foreignId('produit_id')->contrained('produits');
+            $table->foreignId('commande_id')->contrained('commandes');
             $table->timestamps();
         });
     }
